@@ -1,0 +1,15 @@
+package com.homestring;
+
+public class RpelacingWords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="A batman with bat";
+
+System.out.println(str.replace("bat", "snow"));
+
+
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.class13;
+
+public class HowToPrintColorToConsol {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//.contains();
+		String sentence="it was raining";
+		String sen="raining";
+		System.out.println(sentence.contains(sen));
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

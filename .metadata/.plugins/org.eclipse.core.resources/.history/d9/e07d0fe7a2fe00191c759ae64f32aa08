@@ -1,0 +1,48 @@
+package com.interwiev;
+
+public class Quiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	
+
+		int[] array = { 1, 4, 3, 6, 8, 2, 5 };
+
+		int what = array[0];
+
+		for (int index = 0; index < array.length; index++) {
+
+		       if (array[index] > what) {
+
+		                  what = array[index];
+
+		        }
+
+		}
+
+		System.out.println(what);
+		
+		String str1="zeynep";
+		String c = "Hello i love java";
+		  boolean var;
+		  var = c.startsWith("hello");
+		  System.out.println(var);
+		  
+		  
+		  String obj = "I LIKE JAVA";
+		  System.out.println(obj.charAt(3));
+		  
+		  String str = "0123456789";
+		  System.out.println(str.substring(4));
+		  
+		  String word ="abrakadabra";
+
+	      String replace=word.replaceAll("[^aAeEiIoOuU]", " ");
+
+	      System.out.println(replace);
+	}}
+
+
+

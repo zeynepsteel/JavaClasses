@@ -1,0 +1,22 @@
+package com.class13;
+
+import java.util.Arrays;
+
+public class Repl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  
+		   
+		 String str = "abracadabra alakazam";
+		    String target1 = "dab";
+		    String target2 = "ABRA";
+		    System.out.println(str.indexOf('c'));
+		    
+		    
+
+
+	 }
+	
+
+}

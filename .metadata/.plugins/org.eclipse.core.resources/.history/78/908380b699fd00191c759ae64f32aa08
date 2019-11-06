@@ -1,0 +1,14 @@
+package com.class14;
+
+public class ReplaceAll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str="hello Dear, how are you?";
+
+
+
+System.out.println(str.replace('e', 'z'));
+	}
+
+}

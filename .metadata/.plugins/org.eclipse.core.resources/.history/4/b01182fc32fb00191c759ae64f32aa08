@@ -1,0 +1,13 @@
+package com.homestring;
+
+public class DeleteConstenents {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+String str= "Hello, have a good day";
+
+
+System.out.println(str.compareToIgnoreCase("h"));
+	}
+
+}

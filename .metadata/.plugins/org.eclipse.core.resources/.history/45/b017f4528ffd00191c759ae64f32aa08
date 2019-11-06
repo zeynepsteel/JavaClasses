@@ -1,0 +1,14 @@
+package com.class14;
+
+public class Substring {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str="Jav is getting nteresting";
+		System.out.println(str.substring(15));
+		
+		
+	}
+
+}

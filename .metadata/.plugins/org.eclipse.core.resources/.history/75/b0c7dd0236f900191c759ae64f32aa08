@@ -1,0 +1,32 @@
+package com.class13;
+
+import java.util.Arrays;
+
+public class Repl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[][] a = {
+				{-5,-2,-3,7},
+				{1,-5,-2,2},
+				{1,-2,3,-4}
+			};
+	//should print 3
+	 int sum = 0;
+	 
+	 for(int i = 2; i < a.length; i=i+2 ){
+			
+			for(int j =2; j < a[i].length; j = j+2){
+			  sum = sum + a[i][j];
+			}
+	 }
+	 
+	 
+	 System.out.println(sum);
+	
+
+
+	 }
+	
+
+}

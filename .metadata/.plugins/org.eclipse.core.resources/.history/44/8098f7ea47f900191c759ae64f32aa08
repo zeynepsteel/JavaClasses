@@ -1,0 +1,18 @@
+package com.class13;
+
+import java.util.Scanner;
+
+public class Repl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  
+		   
+		String s1="hello how are you"; 	
+
+	System.out.println(s1.replace('h','t'));
+	
+	}
+	
+
+}

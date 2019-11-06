@@ -1,0 +1,10 @@
+package com.homestring;
+
+public class OccuranceOfO {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

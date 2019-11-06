@@ -1,0 +1,22 @@
+package com.class10;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		char[] grades=new char[5];
+		
+				grades[0]='A';
+				grades[1]='B';
+				
+				grades[2]='C';
+				grades[3]='D';
+				grades[4]='E';
+				grades[5]='A';
+				System.out.println(grades[1]);
+				
+	}
+
+}

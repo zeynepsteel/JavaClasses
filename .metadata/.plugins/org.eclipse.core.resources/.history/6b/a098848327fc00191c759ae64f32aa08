@@ -1,0 +1,14 @@
+package com.homestring;
+
+public class indexString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str="today is java!";
+				
+		System.out.println(str.indexOf('d'));
+		str.indexOf("day");
+	}
+
+}

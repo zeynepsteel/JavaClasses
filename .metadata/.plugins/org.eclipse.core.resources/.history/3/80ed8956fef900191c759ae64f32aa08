@@ -1,0 +1,23 @@
+package com.class13;
+
+import java.util.Scanner;
+
+public class Repl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  
+		
+		 
+		Scanner scan=new Scanner(System.in);
+		String str=scan.nextLine();
+		System.out.println("The first 3 letters of "+str+" is "+str.substring(0, 3));
+		  
+		  }
+		
+	    
+	
+	
+	
+
+}

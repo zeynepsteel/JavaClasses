@@ -1,0 +1,20 @@
+package com.class13;
+
+import java.util.Arrays;
+
+public class Repl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  
+		   
+		String str = "laptops out for harambe";
+	    
+		System.out.println(str.charAt(5));
+	     System.out.println(str.charAt(7));
+	      System.out.println(str.contains("harambe"));
+	      
+	 }
+	
+
+}

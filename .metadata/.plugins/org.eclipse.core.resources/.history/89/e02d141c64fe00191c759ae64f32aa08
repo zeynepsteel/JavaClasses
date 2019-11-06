@@ -1,0 +1,14 @@
+package com.class15;
+
+public class Task2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str="gsfsjdg123$#kdfjsd$%%6";
+		
+		System.out.println(str.replaceAll("[a-zA-Z]", ""));
+		
+	}
+
+}

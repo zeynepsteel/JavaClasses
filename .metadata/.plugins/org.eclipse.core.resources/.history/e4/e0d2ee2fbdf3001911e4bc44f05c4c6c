@@ -1,0 +1,22 @@
+package com.array;
+
+import java.util.Scanner;
+
+public class Repl3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan=new Scanner(System.in);
+		  
+		  int[] array=new int[5];
+		System.out.println("enter 5 elements for loop");
+		for(int i=0; i<array.length;i++){
+		  
+		 System.out.println(array[i]);
+		 
+		  
+		}
+		  
+	}
+
+}
