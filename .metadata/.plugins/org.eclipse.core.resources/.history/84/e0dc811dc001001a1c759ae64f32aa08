@@ -1,0 +1,32 @@
+package com.class16;
+
+public class StringManipulations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// string is a class in java lang package
+		// 2 ways to create a string
+		
+		//first way is using string literal 
+		String str=null;
+		
+		// second way using keyword- creatin string object
+		String str1="hello";
+		
+		
+		System.out.println(str.length());
+		str.toLowerCase();//hello
+		str.toUpperCase();//HELLO
+		
+		
+		boolean isEmpty=str.isEmpty();
+		
+		System.out.println(isEmpty);
+		
+		
+		
+		
+	}
+
+}

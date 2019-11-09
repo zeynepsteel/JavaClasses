@@ -1,0 +1,10 @@
+package com.rewievstringmanipulations;
+
+public class SubStringDemo {
+	public void name() {
+		String a="i am very happy today, because today is ver hot";
+		String b=a.substring(10);
+		System.out.println(b);
+	}
+
+}

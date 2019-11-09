@@ -1,0 +1,13 @@
+package com.rewievstringmanipulations;
+
+public class SubStringDemo {
+	public static void main(String[] args) {
+		
+	
+String a="987654";
+	String[] b=a.split("");
+	System.out.println(b.length);
+	
+	}}
+		
+		

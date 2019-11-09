@@ -1,0 +1,15 @@
+package com.certificaition;
+
+public class Questions {
+
+	
+		public static void main(String[] args) 
+		{
+			String[] argv = new String[2];
+			argv=args;
+			for(String v : argv)
+			{
+				System.out.print(v);
+			}
+		}
+}

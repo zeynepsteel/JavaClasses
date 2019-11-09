@@ -1,0 +1,20 @@
+package com.class16;
+
+import java.util.Arrays;
+
+public class Iq2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] array= {11,45,85,98};
+		 Arrays.sort(array);
+		int max=array[array.length-1];
+		int min=array[0];
+		int secondNum=array[array.length-2];
+		System.out.println(max);
+		System.out.println(min);
+		System.out.println(secondNum);
+	}
+
+}

@@ -8,24 +8,29 @@ public class TerstenSayiYazdirma {
 		// TODO Auto-generated method stub
 
 		
-		/*Scanner scan=new Scanner(System.in);
+		Scanner scan=new Scanner(System.in);
 		System.out.println("please enter a number");
 		int a=scan.nextInt();
+		int firstNum=a;
 		
+		int reverse=0;
+		int lastDigit;
 		while(a!=0) {
 			
-			
-			System.out.print(a%10);
+			lastDigit=a%10;
+			reverse=reverse*10+lastDigit;
 			a/=10;
 			
-		}*/
-int x=12233387;
-while(x!=0) {
+		}
+
+System.out.println("*******************");
+
+System.out.println(reverse);
+if (reverse==firstNum) {
+	System.out.println(firstNum+" is a polindrom");
+}else {
 	
-	System.out.print(x%10);
-	x=x/10;
-	
-	
+	System.out.println(firstNum+ " is not a polindrom");
 }
 	}
 	

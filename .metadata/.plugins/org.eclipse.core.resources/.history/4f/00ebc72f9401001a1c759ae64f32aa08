@@ -1,0 +1,30 @@
+package com.home.data;
+
+import java.util.Scanner;
+
+public class TerstenSayiYazdirma {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("please enter a number");
+		int a=scan.nextInt();
+		int b=0;
+		while(a!=0) {
+			
+			b=a%10;
+			System.out.print(b);
+			a/=10;
+			
+		}
+
+
+
+System.out.println("***********");
+System.out.println(b);
+	}
+	
+
+}

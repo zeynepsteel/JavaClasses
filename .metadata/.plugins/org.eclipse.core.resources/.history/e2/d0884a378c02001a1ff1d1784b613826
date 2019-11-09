@@ -1,0 +1,46 @@
+package com.home.array;
+
+import java.util.Scanner;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+/*Write a program to determine  whether given number is Armstrong number or not?
+“Armstrong number is a number that is equal to the sum of cubes of its digits.”
+Examples
+Input=153
+Output= true
+Input=155
+Output=false*/
+		Scanner scan=new Scanner(System.in);
+		System.out.println("enter a number");
+		int num=scan.nextInt();
+		int sum=0;
+		int digit=0;
+		int a;
+		int b=0;
+		for(int i=0; i<=num; i++) {
+			b=num%10;
+			digit=b*b*b;
+			num=num/10;
+			if(num<10) {
+				
+				b=num;
+			}
+				sum=sum+digit;	
+				
+				
+		}
+		
+		System.out.println(sum);
+		boolean result=true;
+		if (sum==num) {
+			System.out.println("true");
+		}
+		else {
+			System.out.println("false");
+		}
+	}
+
+}

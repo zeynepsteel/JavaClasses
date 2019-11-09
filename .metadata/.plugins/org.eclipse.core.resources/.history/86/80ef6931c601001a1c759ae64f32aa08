@@ -1,0 +1,16 @@
+package com.class16;
+
+public class StringMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String str="Java classes at Syantax are awesome";
+		String str2=str.replace("awesome", "great");
+		
+		System.out.println(str2);
+		System.out.println(str.("Git", "SDLC"));
+		
+	}
+
+}

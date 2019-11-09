@@ -5,7 +5,7 @@ public class Question5 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	String str="zeynep";
+	String str="hello today is saturday";
 	for(int i=str.length()-1; i>=0; i--) {
 		
 		

@@ -1,0 +1,12 @@
+package com.certificaition;
+
+public class Certification {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] s = new String[2];
+		System.out.println(s);
+		System.out.println(s[0]);
+	}
+
+}
