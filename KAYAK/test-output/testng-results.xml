@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64551" started-at="2020-02-06T22:24:44 CST" finished-at="2020-02-06T22:25:48 CST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64551" started-at="2020-02-06T22:24:44 CST" finished-at="2020-02-06T22:25:48 CST">
+      <class name="com.kayak.testcases.CalendarDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.kayak.testcases.CalendarDemo@3b084709]" name="setUp" is-config="true" duration-ms="18363" started-at="2020-02-06T22:24:44 CST" finished-at="2020-02-06T22:25:02 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="roundTrip()[pri:0, instance:com.kayak.testcases.CalendarDemo@3b084709]" name="roundTrip" duration-ms="44893" started-at="2020-02-06T22:25:02 CST" finished-at="2020-02-06T22:25:47 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundTrip -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.kayak.testcases.CalendarDemo@3b084709]" name="tearDown" is-config="true" duration-ms="1241" started-at="2020-02-06T22:25:47 CST" finished-at="2020-02-06T22:25:48 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.kayak.testcases.CalendarDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
